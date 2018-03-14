@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/farmland.unity
+  isLoaded: 1
+  isActive: 1
