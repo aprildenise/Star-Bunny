@@ -46,17 +46,16 @@ public class Interactable : MonoBehaviour {
                 Debug.Log("interacted");
                 Interact();
             }
+			if (Input.GetKeyDown ("space")) 
+			{
+				Debug.Log ("  ^   ^  \n <(o . o)>\nNothing to interact with");
+			}
         }
     }
 
     //player does something with the interactable (can be replaced)
     public virtual void Interact()
     {
-
     }
-
-
-
-
 
 }

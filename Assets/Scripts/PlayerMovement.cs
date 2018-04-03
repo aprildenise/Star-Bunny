@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour {
         //player movement 
         bool isMoving = false;
         if (Mathf.Abs(input_x) + Mathf.Abs(input_y) > 0)
-        {
+     	{
             isMoving = true;
         }
         else
